@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+}
+body{
+    background-color: rgb(173, 180, 255);
+}
+.maincontainer{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 10cm;
+    height: 9cm;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+.maincontainer .image{
+    width: 2.5cm;
+    height: auto;
+    position: absolute;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    top: 23%;
+
+}
+
+.maincontainer .digiclock{
+    position: absolute;
+    top: 43%;
+    left: 23%;
+    /* transform: translate(-50%,-50%); */
+    
+}
+.maincontainer .digiclock .clock{
+    /* display: flex; */
+    font-family: 'digital-7',sans-serif;
+    font-size: 25px;
+}
+
+.maincontainer .disable{
+    opacity: 0.6;
+    pointer-events: none;
+}
+.maincontainer .content .column{
+    position: absolute;
+    top: 70%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+   
+}
+.maincontainer .content .column select{
+    margin-left: 10px;
+    width: 2.5cm;
+    height: 1cm;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.maincontainer .setalarm{
+    position: absolute;
+    top: 86%;
+    border-radius: 5px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 8.1cm;
+    height: 1cm;
+    border: none;
+    background-color:  rgb(148, 157, 251);
+    color: aliceblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
